@@ -1,0 +1,84 @@
+.ctn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #f1425c75;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.ctn__info{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ctn__info__logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .3),
+        -4px -4px 6px 0 rgba(116, 125, 136, .2),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+    /* margin-right: 5px; */
+    cursor: pointer;
+}
+
+.ctn__info__name{
+    font-size: 20px;
+}
+
+.pl-btn {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.pl-btn__login {
+    font-size: 14px;
+    display: block;
+    width: 100px;
+    padding: 10px 15px;
+    background-color: #f1425d;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.pl-btn__signup {
+    font-size: 14px;
+    display: block;
+    width: 100px;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: 10px;
+    cursor: pointer;
+    color: #f1425d;
+    border: 0.5px solid #f1425d;
+}
+
+.pl-logout {
+    font-size: 14px;
+    display: block;
+    width: 100px;
+    padding: 10px 15px;
+    background-color: #f1425d;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+}
